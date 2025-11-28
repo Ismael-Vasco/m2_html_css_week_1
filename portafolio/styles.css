@@ -1,0 +1,130 @@
+/* ESTILOS GENERALES */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #222;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+section {
+    padding: 20px;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #212121;
+    padding: 15px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav_item {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav_item:hover {
+    color: #00c3ff;
+}
+
+/* SOBRE MI */
+.about_me {
+    background-color: #ffffff;
+    padding: 30px;
+    border-bottom: 2px solid #ddd;
+}
+
+/* PROYECTOS */
+.projects ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.projects li {
+    padding: 8px 0;
+}
+
+.projects a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+.projects a:hover {
+    color: #004f80;
+}
+
+/* CONTACTO */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+}
+
+button {
+    padding: 10px;
+    background-color: #111;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+/* GALERÍA DE MASCOTAS */
+.mascotas_galeria {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.mascotas_galeria article {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 250px;
+    text-align: center;
+}
+
+.mascotas_galeria img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+/* LINK DE RETORNO */
+.back_link {
+    display: inline-block;
+    margin: 20px;
+    text-decoration: none;
+    color: #0077cc;
+}
+
+.back_link:hover {
+    color: #004f80;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #212121;
+    color: white;
+    margin-top: 30px;
+}
