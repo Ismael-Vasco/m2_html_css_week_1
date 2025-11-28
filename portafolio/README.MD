@@ -14,7 +14,7 @@
 
 ### TASK 2
 #### 2. Estructura del portafolio (index.html):
-- Define la estructura básica con <!DOCTYPE html>, <html>, <head>, <body>.
+- Define la estructura básica con ```<!DOCTYPE html>, <html>, <head>, <body>.```
 - En el <head>, agrega metadatos, título y vincula styles.css.
 - Dentro del <body>:
   - Crea un encabezado (<header>) con tu nombre y un menú de navegación (<nav>).
